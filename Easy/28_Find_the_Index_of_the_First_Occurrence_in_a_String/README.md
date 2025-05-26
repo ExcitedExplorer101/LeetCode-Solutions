@@ -53,6 +53,7 @@ needle   = "cd"
 | 1   | 0 | 'b'                    | 'c'              | ❌     |
 | 2   | 0 | 'c'                    | 'c'              | ✅     |
 | 2   | 1 | 'd'                    | 'd'              | ✅     |
+
 ✅ j = 2, which equals `needle.length()` → return `i = 2`
 
 ---
