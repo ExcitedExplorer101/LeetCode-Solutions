@@ -5,12 +5,7 @@ class Solution {
         //Time: O(n) Space: O(1)
         int result=0;
         for(int i=1; i<=n; i++){
-            if(i%m!=0){
-                result+=i;
-            }
-            else{
-                result-=i;
-            }
+            result=(i%m!=0)?result+i:result-i
         }
         return result;
     }
