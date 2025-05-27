@@ -38,8 +38,8 @@ s + s → remove first and last character → check if original s is in the resu
 ### 📌 Key Insights
 
 - **Removing the first and last character removes:**  
-  The original full `s` that appears at position 0 in s + s
-  And the mirrored full `s` at the end
+  The original full `s` that appears at position 0 in s + s and 
+  The mirrored full `s` at the end
 
 ### ⏱️ Time & Space Complexity
 
