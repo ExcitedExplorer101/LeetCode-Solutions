@@ -1,3 +1,6 @@
+## Problem Statement
+[459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)  
+
 ## ✅ Approach 1: String Builder
 
 ### 🔁 Overall Logic

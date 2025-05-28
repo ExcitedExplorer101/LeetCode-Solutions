@@ -1,5 +1,5 @@
 ## Problem Statement
-[2894. Divisible and Non-divisible Sums Difference]( https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/)
+[2894. Divisible and Non-divisible Sums Difference]( https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/)  
 
 ## ✅ Approach 1: Traversal
 
@@ -31,18 +31,18 @@ With arithmetic progression we know that the sum of integers in the range `[1, n
 
 -	First, focus on creating `num2`, i.e., the numbers that are divisible by m.  
 The k-th such number is k × m, so their sum is  
-       ![num2]( solution-images/math/leetcode2894/num2.png)  
+       ![num2](https://github.com/ExcitedExplorer101/LeetCode-Solutions/blob/bc577f3586f6225e669c42d108600636ac7e40eb/solution-images/math/leetcode2894/num2.png)    
        where `k=m/n` is the count of multiples of m up to n.  
 
 -	Next, to generate `num1`, look at the numbers **not** divisible by m.  
 Their sum is simply the total of the first n integers minus num2:
-![num1]( solution-images/math/leetcode2894/num1.png)
+![num1](https://github.com/ExcitedExplorer101/LeetCode-Solutions/blob/bc577f3586f6225e669c42d108600636ac7e40eb/solution-images/math/leetcode2894/num1.png)  
   
 -	The answer the problem asks for is `num1-num2`  
-![num1-num2]( solution-images/math/leetcode2894/num1-num2.png)  
+![num1-num2](https://github.com/ExcitedExplorer101/LeetCode-Solutions/blob/bc577f3586f6225e669c42d108600636ac7e40eb/solution-images/math/leetcode2894/num1-num2.png)    
 
 -	Finally, substitute the closed form of `num2`:  
-![final formula]( solution-images/math/leetcode2894/final_formula.png)    
+![final formula](https://github.com/ExcitedExplorer101/LeetCode-Solutions/blob/bc577f3586f6225e669c42d108600636ac7e40eb/solution-images/math/leetcode2894/final_formula.png)      
 This single formula lets us compute the desired result directly, **without** any iteration.  
 
 ### ⏱️ Time & Space Complexity
